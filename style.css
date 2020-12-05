@@ -1,0 +1,412 @@
+/* CSS reset start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS reset END*/
+
+
+
+
+
+/*Custom CSS Start*/
+html{
+	scroll-behavior: smooth;
+}
+.wrapper{
+	width: 1000px;
+	margin: auto;
+}
+header{
+	background-image: url("image/header-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 745px;
+	background-position: center;
+}
+.head {
+}
+
+.header-top {
+	padding-top: 70px
+}
+
+.header-top a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+}
+.header-top a:hover {
+	color: #bdbdbd;
+}
+
+.menu-right, .menu-left{
+	float: left;
+}
+.menu-right ul, .menu-left ul{
+	text-align: center;
+	width: 450px;
+}
+.menu-right ul li, .menu-left ul li{
+
+	display: inline-block;
+	margin-right: 50px;
+}
+.menu-right ul li:last-of-type, .menu-left ul li:last-of-type{
+
+	margin-right: 0px;
+}
+.menu-right ul li a, .menu-left ul li a{
+    float: left;
+
+}
+.menu-right{
+
+}
+.menu-logo {
+	float: left;
+	width: 100px;
+}
+.menu-logo a img {
+	display: block;
+	margin: auto;
+	margin-top: -30px;
+}
+
+.menu-left {
+
+}
+
+
+.header-content {
+	clear: both;
+	margin-top: 245px;
+}
+.header-content hgroup{
+	color:#FFF;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.header-content hgroup h2{
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+
+.call-to-action-button {	
+    color: White;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    background-color: #16a085;
+    width: 150px;
+    height: 34px;
+    border: 0px;
+    border-radius: 5px;
+    line-height: 33px;
+    letter-spacing: 1.5px;
+    margin: auto;
+    margin-top: 22px;
+	
+}
+
+.header-bottom {
+
+}
+.social{
+
+}
+.header-bottom ul{
+	width: 150px;
+    text-align: center;
+    margin: 265px auto 0px;
+	
+}
+.header-bottom ul li{
+	display: inline-block;
+    margin-right: 18px;
+	
+}
+.header-bottom ul li:last-of-type{
+    margin-right: 0px;
+	
+}
+
+.service {
+}
+
+.service-details h3{
+	color: #16a085;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding-bottom: 40px;
+}
+.service-details p{
+	font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.service-details p span{
+	font-weight: bold;
+}
+.service-details {
+	    width: 500px;
+}
+
+.single-service {
+    padding-top: 75px;
+    padding-bottom: 130px;
+}
+.single-service:first-of-type{
+	background-color: #f5f6f7;
+    background-image: url(image/hand-iphone.png);
+    background-repeat: no-repeat;
+    background-position: 610px 83px;
+    background-size: 548px;   
+
+}
+.single-service .call-to-action-button{
+	float: left;
+}
+
+.single-service:last-of-type .service-details{
+	float: right;
+}
+.single-service:last-of-type{
+	background-color: #fff;
+	background-image: url(image/flate-iphone.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-position: 165px 70px;
+    background-size: 264px;
+
+}
+
+
+.protfolio {
+	clear: both;
+	background-color: #f5f6f7;
+
+}
+.protfolio ul{
+	padding: 120px 0px;
+}
+.protfolio ul li{
+	display: inline-block;
+    width: 31%;
+    margin-right: 2%;
+    height: 244px;
+}
+.protfolio ul li:last-of-type{
+	margin-right: 0px;
+}
+.protfolio ul li img{
+	width: 100%;
+	height: 100%;
+}
+.protfolio img{
+	
+}
+
+.subscribe {
+	clear: both;
+    background: url(image/subscribe-bg.png) no-repeat;
+    background-size: cover;
+    height: 700px;
+    /*background-position: 0px -180px;
+    padding: 300px 0px;*/
+
+}
+.subscribe h2{
+	color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+.subscribe .email{
+	text-align: center;
+	padding-top: 420px;
+
+}
+.subscribe form{
+	position: relative;
+
+}
+.fa-check {
+    position: absolute;
+    top: 0px;
+    right: 394px;
+    background-color: #16a085;
+    padding: 14px;
+    border-radius: 2px;
+    color: #fff;
+}
+.subscribe form input[type="email"]{
+	    padding: 15px 30px 14px 14px;
+	    border: none;
+	    border-radius: 3px;
+	    outline: none;
+
+}
+.subscribe form input[placeholder]{
+
+}
+
+.download{
+	background-color: #f5f6f7;
+    padding: 120px 0px;
+
+}
+.download .download-wrapper{
+	text-align: center;
+}
+.download .download-wrapper h2{
+	font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.download .download-wrapper p{
+	padding: 0px 50px;
+	line-height: 22px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+.download .download-wrapper a{
+}
+.download ul li span img{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #16a085;
+    padding: 8px;
+    border-radius: 3px;
+
+}
+.download ul li span:first-of-type{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #16a085;
+    padding: 22px;
+    border-radius: 3px;
+
+}
+.download ul li{
+	position: relative;
+
+}
+.download .download-wrapper ul li{
+	display: inline;
+	padding: 14px 90px 14px 14px;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+	background-color: #1abc9c;
+	 margin-right: 12px;
+}
+.download .download-wrapper ul li a{
+	text-decoration: none;
+    color: #fff;
+    letter-spacing: 1.5px;
+    
+}
+.foot{
+	padding: 40px 0;
+}
+
+.foot ul{
+	margin-bottom: 20px;
+}
+.foot ul li{
+	display: inline-block;
+	margin-right: 20px;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+
+}
+.foot ul li:after{
+	content: "|";
+	color: #373737;
+	padding-left: 20px;
+}
+.foot ul li:last-of-type:after{
+	content: " ";
+}
+.foot .vl{
+	border: 1px solid #1aba9c;
+	height: 10px;
+
+}
+.foot p{
+	color: #373737;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+.foot .wrapper {
+    background: url(image/footer-logo.png) no-repeat;
+    background-position: right;
+}
+
+.foot .wrapper a{
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    background: #1abc9c;
+    padding: 10px;
+    margin-top: -35px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
